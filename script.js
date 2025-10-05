@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       // Step 4: Task Creation and Removal
-      // Create new li element
+      // Create new li element and set its text content
       const li = document.createElement('li');
       li.textContent = taskText;
       
